@@ -6,11 +6,14 @@ import Home from "./Pages/Home";
 function App() {
   return (
 <div>
-      <header>
+      <header className="AppHeader">
+        <h1>Employee Directory</h1>
+        </header>
+        <body>
         <Router>
           <Route exact path="/" component={Home} />
         </Router>
-      </header>
+        </body>
     </div>
   );
 }
